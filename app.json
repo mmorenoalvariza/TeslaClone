@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "TeslaClone",
-    "slug": "TeslaClone",
+    "slug": "teslaclonev2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -25,10 +25,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.batiar.teslaclonev2"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "08512757-2c91-4794-bf6f-eaa0f80721cd"
+      }
+    },
+    "owner": "batiar"
   }
 }
